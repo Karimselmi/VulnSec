@@ -7,6 +7,11 @@ VulnSec is a Python-based web vulnerability scanning tool designed to help secur
 With an intuitive command-line interface, VulnSec allows users to quickly assess a target's security posture by specifying different testing options. **This tool is intended for ethical hacking and security auditing purposes only.** 
 
 ---
+## **ScreenShot**
+
+![Uploading Screenshot_20241008_171031.png…]()
+
+---
 
 ## **Features**
 
