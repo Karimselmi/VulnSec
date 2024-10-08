@@ -7,12 +7,6 @@ VulnSec is a Python-based web vulnerability scanning tool designed to help secur
 With an intuitive command-line interface, VulnSec allows users to quickly assess a target's security posture by specifying different testing options. **This tool is intended for ethical hacking and security auditing purposes only.** 
 
 ---
-## **ScreenShot**
-
-![Uploading Screenshot_20241008_171031.png…]()
-
----
-
 ## **Features**
 
 - **Port Scanning**: Quickly scan a range of common ports and detect open ones.
@@ -98,18 +92,43 @@ python3 vulnsec.py [OPTION] [TARGET_URL]
 
 ---
 
-## **Sample Banner**
+## **ScreenShot**
 
 ```bash
     ========================================
-      ██▒   █▓ █    ██  ██▓     ███▄    █  
-    ▓██░   █▒ ██  ▓██▒▓██▒     ██ ▀█   █   
-     ▓██  █▒░▓██  ▒██░▒██░    ▓██  ▀█ ██▒ 
-      ▒██ █░░▓▓█  ░██░▒██░    ▓██▒  ▐▌██▒ 
-       ▒▀█░  ▒▒█████▓ ░██████▒▒██░   ▓██░ 
+      ██▒   █▓ █    ██  ██▓     ███▄    █   ██████ ▓█████  ▄████▄  
+    ▓██░   █▒ ██  ▓██▒▓██▒     ██ ▀█   █ ▒██    ▒ ▓█   ▀ ▒██▀ ▀█  
+     ▓██  █▒░▓██  ▒██░▒██░    ▓██  ▀█ ██▒░ ▓██▄   ▒███   ▒▓█    ▄ 
+      ▒██ █░░▓▓█  ░██░▒██░    ▓██▒  ▐▌██▒  ▒   ██▒▒▓█  ▄ ▒▓▓▄ ▄██▒
+       ▒▀█░  ▒▒█████▓ ░██████▒▒██░   ▓██░▒██████▒▒░▒████▒▒ ▓███▀ ░
+       ░ ▐░  ░▒▓▒ ▒ ▒ ░ ▒░▓  ░░ ▒░   ▒ ▒ ▒ ▒▓▒ ▒ ░░░ ▒░ ░░ ░▒ ▒  ░
+       ░ ░░  ░░▒░ ░ ░ ░ ░ ▒  ░░ ░░   ░ ▒░░ ░▒  ░ ░ ░ ░  ░  ░  ▒   
+         ░░   ░░░ ░ ░   ░ ░      ░   ░ ░ ░  ░  ░     ░   ░        
+          ░     ░         ░  ░         ░       ░     ░  ░░ ░      
+         ░                                               ░           
     ----------------------------------------
-          VulnSec - Web Vulnerability Scanner     
+         VulnSec - Vulnerability Scanner     
     ========================================
+    
+    
+
+     VulnSec  is a Python-based vulnerability scanner designed to help identify potential security risks in websites. 
+    It allows scanning for open ports, SQL injection vulnerabilities, HTTP header security, and general vulnerabilities using Nmap.
+    
+
+    Usage: 
+    VulnSec [OPTION] [TARGET_URL]
+
+    Options:
+    -v  Perform vulnerability scan
+    -p  Perform port scanning (quick scan)
+    -H  Check HTTP headers
+    -S  Test for SQL Injection
+
+    Example:
+    VulnSec: -p https://example.com
+    
+VulnSec:
 ```
 
 ---
